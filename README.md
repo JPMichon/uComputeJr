@@ -39,6 +39,8 @@ Cela vous permet de faire évoluer instantanément votre Junior (liaisons sans f
 | **Header H1** <br>(Connecteur E/S) | **µCompute Remote** <br>| Carte d'extension intégrant un joystick analogique et des boutons pour le pilotage RC. | <img width="175" height="131" alt="Manette uCompute Remote" src="https://github.com/user-attachments/assets/25dda003-8ab8-48c4-a7d1-1a45fdbca7a4" /> |
 | **Header H1** <br>(Connecteur E/S) | **µCompute Rover** <br> | Contrôleur pour moteurs CC (2+2), servomoteur, capteur HC-SR04 et module GPS Neo-6M. | <img width="220" height="145" alt="Contrôleur uCompute Rover" src="https://github.com/user-attachments/assets/90114819-d70b-4cbb-8cfd-5e95b66cca84" /> |
 
+> ℹ **Note technique concernant le support réseau (Module W5500) :**
+> Bien que le connecteur d'add-on **U7** soit nativement conçu pour accueillir un module Ethernet **W5500**, l'utilisation de cette connectivité filaire sous MicroPython requiert une attention logicielle particulière. Contrairement aux scripts standards, l'activation des fonctionnalités réseau du W5500 **nécessite une recompilation personnalisée du firmware MicroPython** afin d'y intégrer directement les pilotes de pile réseau (*drivers C*) requis par ce composant.
 
 ---
 
@@ -136,9 +138,9 @@ Toutes les connexions entre le Raspberry Pi Pico et les périphériques de la ca
 | **UART (Console)** | GPIO 1 | RX (LED Verte d'état) |
 | **Écran LCD ST7789** | GPIO 2 | SCL (Horloge SPI) |
 | **Écran LCD ST7789** | GPIO 3 | SDA (Données SPI / MOSI) |
-| **Écran LCD ST7789** | GPIO 4 | RES (Reset) / DC / BL |
-| **Écran LCD ST7789** | GPIO 5 | Contrôle additionnel / Backlight |
-| **Barrette NeoPixel** | GPIO 6 | Sortie données LED RGB adressables |
+| **Écran LCD ST7789** | GPIO 4 | RES (Reset) |
+| **Écran LCD ST7789** | GPIO 5 | DC |
+| **Barrette NeoPixel** | GPIO 6 | Broche Neopixel |
 | **Module Communication**| GPIO 8 | INT (Interruption) |
 | **Module Communication**| GPIO 9 | CS (Chip Select Ethernet) |
 | **Bus SPI Partagé (Réseau/SD)**| GPIO 10 | SCLK (Horloge SPI) |
