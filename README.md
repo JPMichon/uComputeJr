@@ -17,11 +17,10 @@ Cette carte sert de passerelle d'initiation matérielle pour s'intégrer facilem
 
 Le **uCompute Junior** s'impose comme l'outil parfait pour l'initiation à l'électronique et aux systèmes embarqués, que ce soit en milieu scolaire (**écoles et collèges**) ou au sein des **Fablabs**. 
 
-* **Pour le milieu éducatif :** Grâce à son approche *"Bring your own Pico"*, il minimise la complexité et la frustration liées à la soudure de composants de surface CMS, offrant aux élèves une introduction fluide, sécurisante et gratifiante. En combinant la puissance de la communauté **Raspberry Pi Pico**, la clarté du langage **MicroPython** et la flexibilité de l'écosystème **uCompute**, les enseignants disposent d'un environnement clé en main pour structurer des ateliers pratiques captivants (du simple clignotement de LED au pilotage du *uCompute Rover*).
-* **Pour les Fablabs et Makerspaces :** Cette carte représente le projet communautaire idéal. Sa conception simple en fait un excellent support d'apprentissage pour les ateliers d'initiation à la soudure traditionnelle. Elle permet aux membres de s'approprier un matériel polyvalent sans dépendre de machines de pose CMS complexes.
+* **Pour le milieu éducatif :** Grâce à son approche *"Bring your own Pico"*, il simplifiera grandement la mise en œuvre en classe en accueillant un module Raspberry Pi Pico standard prêt à l'emploi. En combinant la puissance de la communauté **Raspberry Pi Pico**, la clarté du langage **MicroPython** et la flexibilité de l'écosystème **uCompute**, les enseignants disposent d'un environnement clé en main pour structurer des ateliers pratiques captivants (du simple clignotement de LED au pilotage du *uCompute Rover*).
+* **Pour les Fablabs et ateliers pratiques :** Bien que la carte nécessite de la soudure de surface (CMS), le choix s'est délibérément porté sur des composants de taille **0805**, particulièrement faciles à manipuler et à souder à la main. Cela en fait un excellent support pédagogique pour dédramatiser et enseigner la soudure CMS sans nécessiter d'équipement industriel complexe (comme un four ou une plaque chauffante).
 
 L'intégralité du projet est propulsée par les valeurs de l'Open Hardware et partagée sous licence **CC BY-NC-SA 4.0**. L'ensemble des fichiers de fabrication (Gerber, schémas) étant librement accessible, les établissements scolaires tout comme les Fablabs peuvent commander, modifier ou produire localement leurs propres cartes à moindre coût, favorisant une autonomie technologique totale et un partage des connaissances sans friction budgétaire.
-
 
 ---
 
