@@ -1,6 +1,6 @@
-## [Version Française à ce lien](./README.md)
-
 # uCompute Junior (Bring your own PICO)
+
+## [Version française disponible ici](./README.md)<br>
 
 The **uComputeJunior** is a streamlined and highly accessible version of the [RP2040 uCompute platform](https://github.com/JPMichon/RP2040_uCompute). Designed specifically for **novice hobbyists and makers**, it features a "Bring your own Pico" framework: it eliminates the need to solder complex surface-mount devices (SMD) by directly hosting a standard, ready-to-use Raspberry Pi Pico module.
 
