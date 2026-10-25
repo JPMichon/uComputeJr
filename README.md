@@ -23,10 +23,10 @@ Ce projet est sous licence **CC BY-NC-SA 4.0**. Les fichiers **Gerber** ainsi qu
 | :--- | :--- | :--- |
 | **Cœur** | Emplacement pour Raspberry Pi Pico (U1) | Calcul et contrôle général |
 | **Alimentation** | Entrée USB-C (6 broches) + Fusible de protection | Alimentation générale 5V / 3.3V |
-| **Réseau** | Module Ethernet W5500 (U7) | Connectivité réseau filaire (SPI) |
+| **Add-on** | Module de communication (U7) | Connectivité réseau filaire (SPI) |
 | **Stockage** | Lecteur de carte MicroSD (TF Card) | Stockage de masse et systèmes de fichiers |
 | **Affichage 1** | Écran LCD 1.3" IPS ST7789 (240x240) | Interface graphique couleur haute résolution |
-| **Affichage 2** | Support d'écran OLED SSD1306 (I2C) | Affichage secondaire ou optionnel monochrome |
+| **Affichage alternative** | Support d'écran OLED SSD1306 (I2C) | Affichage optionnel monochrome |
 | **Mémoire EEPROM** | CAT24CxxxWI-G (U5) | Sauvegarde de configuration non-volatile |
 | **Audio** | Buzzer piézoélectrique actif/passif (BUZ) | Alertes sonores et effets audio |
 | **Entrées** | Échelle de 3 boutons poussoirs (BTN1-BTN3) | Navigation et interactions utilisateur (lecture ADC) |
