@@ -25,7 +25,8 @@ L'intégralité du projet est propulsée par les valeurs de l'Open Hardware et p
 
 ## 🛠️ Fabrication & Assemblage (Do It Yourself)
 
-⚠️ **Niveau technique requis :** L'assemblage manuel du PCB reste relativement simple, les plus petites composantes de surface sont de format 0805. Un fer a souder muni d'une pointe fine, du flux et un peu de patience, c'est un défit tout a fait accessible à la majorité de bidouilleur.
+⚠️ **Niveau technique requis :** <br>
+L'assemblage manuel du PCB reste relativement simple, les plus petites composantes de surface sont de format 0805. Un fer a souder muni d'une pointe fine, du flux et un peu de patience, c'est un défit tout a fait accessible à la majorité de bidouilleur.
 
 ---
 
