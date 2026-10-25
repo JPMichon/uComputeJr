@@ -25,8 +25,21 @@ L'intégralité du projet est propulsée par les valeurs de l'Open Hardware et p
 
 ## 🛠️ Fabrication & Assemblage (Do It Yourself)
 
-⚠️ **Niveau technique requis :** <br>
-L'assemblage manuel du PCB reste relativement simple, les plus petites composantes de surface sont de format 0805. Un fer a souder muni d'une pointe fine, du flux et un peu de patience, c'est un défit tout a fait accessible à la majorité de bidouilleur.
+Ce projet est entièrement Open Hardware. Les fichiers **Gerber**, les schémas électriques ainsi que la liste complète des composants (BOM) sont disponibles dans le dossier `Hardware/`. Vous pouvez librement exporter ces fichiers pour faire fabriquer vos circuits imprimés (PCBs) chez le fournisseur de votre choix.
+
+⚠ **Niveau technique requis & Matériel :**  
+L'assemblage manuel du PCB est un défi stimulant mais **parfaitement accessible à la majorité des bidouilleurs**, même s'il s'agit de votre première transition vers les composants montés en surface (CMS). 
+
+Afin de faciliter le travail à la main et d'éviter la frustration, le circuit a été conçu avec des contraintes matérielles intelligentes :
+* **Taille de composants confortable :** Les plus petites puces et résistances de surface utilisent le format **0805**. C'est la taille idéale pour s'initier, car les pièces restent bien visibles et faciles à manipuler à la pince.
+* **Pas de boîtiers complexes :** La carte élimine les micro-composants aux broches invisibles (comme les QFN ou BGA) qui exigent une station à air chaud ou une plaque chauffante. Un simple fer à souder traditionnel équipé d'une panne fine suffit amplement.
+
+💡 **Pour réussir votre montage, munissez-vous simplement de :**
+* Un fer à souder classique à pointe fine (température réglable recommandée).
+* De la soudure fine de bonne qualité.
+* Un pot ou un stylo de **flux de soudure** (l'ingrédient magique indispensable pour aligner proprement l'étain sur les pastilles CMS).
+* Une pince de précision brucelle (tweezers).
+* Un bon éclairage, une dose de patience, et votre uCompute Junior prendra vie en moins d'une heure !
 
 ---
 
