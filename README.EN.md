@@ -22,10 +22,10 @@ The **uCompute Junior** stands out as the perfect tool for introducing electroni
 
 The entire project is driven by Open Hardware values and shared under the **CC BY-NC-SA 4.0** license. Since all manufacturing files (Gerbers, schematics) are freely accessible, schools and Fablabs can order, modify, or locally produce their own boards at a minimal cost, fostering total technological autonomy and frictionless knowledge sharing without budget constraints.
 
+💵 **Budget-Friendly:** With an estimated cost of only **$25 CAD (~$18 USD / €17)** per board (including PCB, Pi Pico, and screen), it is the perfect low-cost solution to equip an entire classroom or Fablab.
+
 > [!NOTE]
 > If you are a beginner and have never ordered printed circuit boards before, you should know that there are many online platforms available. Personally, I use JLCPCB's services. If you want to test their website, you can use my referral link: **[JLCPCB](https://jlcpcb.com/?from=REDLD)**. This will allow you to get discount coupons for your first prints, while offering me credits to support and finance my future projects. Of course, you are under no obligation to do so, but it is an excellent way to give the channel a helping hand!
-
-💵 **Budget-Friendly:** With an estimated cost of only **$25 CAD (~$18 USD / €17)** per board (including PCB, Pi Pico, and screen), it is the perfect low-cost solution to equip an entire classroom or Fablab.
 
 ---
 
