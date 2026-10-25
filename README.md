@@ -94,7 +94,7 @@ Afin de faciliter le travail à la main et d'éviter la frustration, le circuit 
 | **3** | 10kΩ | R3, R4, R10 | 10k | R0805 |
 | **3** | 1kΩ | R7, R8, R9 | 1k | R0805 |
 | **2** | 5.1kΩ | R11, R12 | 5.1k | R0805 |
-| **1** | 10Ω | R2 | 10r | R0805 |
+| **1** | 270Ω | R2 | 270r | R0805 |
 | **1** | MBR120LSFT | D1 | MBR120LSFT | DO-214AC_L4.3-W2.7-LS5.3-RD |
 | **1** | PPTC FUSE1206 | FUSE | PPTC FUSE1206 | F1206 |
 | **2** | XL-1206QPC | 5V, 3V3 | XL-1206QPC | LED0805 |
