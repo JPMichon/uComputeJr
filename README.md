@@ -48,6 +48,8 @@ Cette carte sert de passerelle d'initiation matérielle pour s'intégrer facilem
 > 1. Le uCompute Junior ne dispose plus de la broche dédiée à la **détection matérielle de présence de la carte MicroSD**.
 > 2. Le contrôle matériel du rétroéclairage (**BLK**) de l'écran LCD ST7789 n'est plus disponible.
 
+---
+
 Toutes les connexions entre le Raspberry Pi Pico et les périphériques de la carte sont regroupées ci-dessous :
 
 | Périphérique | Broche Pico (GPIO) | Fonction SPI / I2C / UART / ADC |
