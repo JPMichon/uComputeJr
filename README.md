@@ -8,9 +8,14 @@ Le **uComputeJunior** est une version allégée et beaucoup plus accessible de l
 
 Cette carte sert de passerelle d'initiation matérielle pour s'intégrer facilement dans l'environnement global uCompute et facilite, par la même occasion, la prise en main et l'accès aux projets de l'écosystème comme le robot programmable [uCompute Rover](https://github.com/JPMichon/uCompute_Rover).
 
----
 
 <img width="497" height="314" alt="image" src="https://github.com/user-attachments/assets/13087ef4-5fba-496f-962a-4c9e4731b73f" /><br>
+
+---
+
+## 🎓 Une solution idéale pour l'enseignement (Écoles & Collèges)
+
+Le **uCompute Junior** s'impose comme l'outil pédagogique parfait pour l'initiation à l'électronique et aux systèmes embarqués en milieu scolaire. Grâce à son approche *"Bring your own Pico"*, il élimine la complexité et la frustration liées à la soudure de composants de surface, offrant aux élèves une introduction fluide, sécurisante et gratifiante. En combinant la puissance de la communauté **Raspberry Pi Pico**, la clarté du langage **MicroPython** et la flexibilité de l'écosystème **uCompute**, les enseignants disposent d'un environnement clé en main pour structurer des ateliers pratiques captivants (du simple clignotement de LED au pilotage du *uCompute Rover*). De plus, l'intégralité du projet est propulsée par les valeurs de l'Open Hardware : tout l'écosystème est publié sous licence **CC BY-NC-SA 4.0** et l'ensemble des fichiers de fabrication (Gerber, schémas) est librement accessible. Les établissements scolaires peuvent ainsi commander et faire fabriquer leurs propres cartes à moindre coût, favorisant une autonomie technologique totale et un apprentissage sans friction budgétaire.
 
 ---
 
