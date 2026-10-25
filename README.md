@@ -2,9 +2,10 @@
 
 # uCompute Junior (Bring your own PICO)
 
+Le **uComputeJunior** est une carte d'extension et de développement conçue autour du microcontrôleur **Raspberry Pi Pico**. Fidèle à la philosophie *"Bring your own Pico"*, cette plateforme intègre de nombreux composants pour l'affichage, le stockage, le réseau et les interactions, tout en restant accessible et modulaire.
+
 <img width="497" height="314" alt="image" src="https://github.com/user-attachments/assets/13087ef4-5fba-496f-962a-4c9e4731b73f" />
 
-Le **uComputeJunior** est une carte d'extension et de développement conçue autour du microcontrôleur **Raspberry Pi Pico**. Fidèle à la philosophie *"Bring your own Pico"*, cette plateforme intègre de nombreux composants pour l'affichage, le stockage, le réseau et les interactions, tout en restant accessible et modulaire.
 
 ---
 
