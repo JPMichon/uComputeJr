@@ -2,6 +2,8 @@
 
 # uCompute Junior (Bring your own PICO)
 
+Ce projet est sous licence **CC BY-NC-SA 4.0**. Les fichiers **Gerber** ainsi que la liste des composants (BOM) sont disponibles dans le dossier `Hardware/`. Vous pouvez librement faire fabriquer les PCBs chez le fournisseur de votre choix.
+
 Le **uComputeJunior** est une carte d'extension et de développement conçue autour du microcontrôleur **Raspberry Pi Pico**. Fidèle à la philosophie *"Bring your own Pico"*, cette plateforme intègre de nombreux composants pour l'affichage, le stockage, le réseau et les interactions, tout en restant accessible et modulaire.
 
 <img width="497" height="314" alt="image" src="https://github.com/user-attachments/assets/13087ef4-5fba-496f-962a-4c9e4731b73f" />
@@ -10,8 +12,6 @@ Le **uComputeJunior** est une carte d'extension et de développement conçue aut
 ---
 
 ## 🛠️ Fabrication & Assemblage (Do It Yourself)
-
-Ce projet est sous licence **CC BY-NC-SA 4.0**. Les fichiers **Gerber** ainsi que la liste des composants (BOM) sont disponibles dans le dossier `Hardware/`. Vous pouvez librement faire fabriquer les PCBs chez le fournisseur de votre choix.
 
 ⚠️ **Niveau technique requis :** L'assemblage manuel du PCB reste relativement simple, les plus petites composantes de surface sont de format 0805. Un fer a souder muni d'une pointe fine, du flux et un peu de patience, c'est un défit tout a fait accessible à la majorité de bidouilleur.
 
