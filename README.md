@@ -23,18 +23,22 @@ L'intégralité du projet est propulsée par les valeurs de l'Open Hardware et p
 
 ---
 
-### 📻 Modules d'extension (Add-ons)
-Pour assurer la liaison sans fil et la télémétrie bidirectionnelle avec la télécommande, le rover exploite les modules d'extension interchangeables du projet principal (notamment le module radio **NRF24L01+**).
+### 📻 Modules d'extension & Rétrocompatibilité (Add-ons)
 
-👉 **[RP2040_uCompute Modules](https://github.com/JPMichon/RP2040_uCompute/tree/main/Modules)**
+Le grand point fort du **uCompute Junior** réside dans l'intégration native de son connecteur d’extension d'add-on et de son peigne d'E/S (Header H1). Bien qu'il s'agisse d'une version allégée, la carte conserve une **compatibilité totale et descendante avec l'ensemble des modules de communication et d'extension de l'écosystème uCompute**. 
 
-| Emplacement | Module | Description & Fonctionnalités | Rendu Visuel |
+Cela vous permet de faire évoluer instantanément votre Junior (liaisons sans fil, télémétrie robotique, pilotage à distance) en y clipsant directement les cartes filles matérielles issues du projet principal ou du Rover.
+
+👉 **[Accéder au répertoire des modules de l'écosystème (RP2040_uCompute Modules)](https://github.com/JPMichon/RP2040_uCompute/tree/main/Modules)**
+
+| Emplacement sur le Junior | Module compatible | Description & Fonctionnalités | Rendu Matériel |
 | :--- | :--- | :--- | :--- |
-| **Add-On module** (Communication) | **Module Wi-Fi** (ESP-12F) | Carte d'adaptation avec ESP8266 pour une connectivité Wi-Fi. | <img width="100" height="133" alt="image" src="https://github.com/user-attachments/assets/f0c80621-1b07-46e6-844b-4594e3d338f9" />  |
-| **Add-On module*** (Communication) | **Module Radio** (NRF24L01) | Carte d'adaptateur pour liaisons radio 2,4 GHz. | <img width="112" height="140" alt="image" src="https://github.com/user-attachments/assets/a6a0a83b-80ed-4dbc-bc28-06579f64b54c" /> |
-| **Add-On module*** (Communication) | **Module LORA** (RFM95W) | Carte d'adaptateur pour liaisons radio LORA | <img width="112" height="140" alt="image" src="https://github.com/user-attachments/assets/729ed810-e456-4e6b-88fb-1f3c61edea25" />|
-| **Header H1** <br> (Connecteur IOs) | **µCompute Remote** <br> (REV 1.0) | Module de commande analogue avec boutons. | <img width="175" height="131" alt="image" src="https://github.com/user-attachments/assets/25dda003-8ab8-48c4-a7d1-1a45fdbca7a4" /> |
-| **Header H1** <br> (Connecteur IOs) | **µCompute Rover** <br> (REV 1.0) | Contrôleur de moteur DC (2+2) + Servo + HC-SR04 + Module GPS (Neo-6M). | <img width="220" height="145" alt="image" src="https://github.com/user-attachments/assets/90114819-d70b-4cbb-8cfd-5e95b66cca84" /> |
+| **Add-On module** <br>(Communication) | **Module Wi-Fi** <br>(ESP-12F) | Carte d'adaptation embarquant un ESP8266 pour ajouter une connectivité Wi-Fi complète. | <img width="100" height="133" alt="Module Wi-Fi ESP-12F" src="https://github.com/user-attachments/assets/f0c80621-1b07-46e6-844b-4594e3d338f9" /> |
+| **Add-On module** <br>(Communication) | **Module Radio** <br>(NRF24L01) | Adaptateur pour liaisons radio 2,4 GHz, idéal pour la communication bidirectionnelle. | <img width="112" height="140" alt="Module Radio NRF24L01" src="https://github.com/user-attachments/assets/a6a0a83b-80ed-4dbc-bc28-06579f64b54c" /> |
+| **Add-On module** <br>(Communication) | **Module LoRa** <br>(RFM95W) | Adaptateur longue portée exploitant la technologie radio LoRa. | <img width="112" height="140" alt="Module LoRa RFM95W" src="https://github.com/user-attachments/assets/729ed810-e456-4e6b-88fb-1f3c61edea25" /> |
+| **Header H1** <br>(Connecteur E/S) | **µCompute Remote** <br>(REV 1.0) | Carte d'extension intégrant un joystick analogique et des boutons pour le pilotage RC. | <img width="175" height="131" alt="Manette uCompute Remote" src="https://github.com/user-attachments/assets/25dda003-8ab8-48c4-a7d1-1a45fdbca7a4" /> |
+| **Header H1** <br>(Connecteur E/S) | **µCompute Rover** <br>(REV 1.0) | Contrôleur pour moteurs CC (2+2), servomoteur, capteur HC-SR04 et module GPS Neo-6M. | <img width="220" height="145" alt="Contrôleur uCompute Rover" src="https://github.com/user-attachments/assets/90114819-d70b-4cbb-8cfd-5e95b66cca84" /> |
+
 
 ---
 
