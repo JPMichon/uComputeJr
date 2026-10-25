@@ -83,13 +83,14 @@ Afin de faciliter le travail à la main et d'éviter la frustration, le circuit 
 | **2** | Connecteur femelle 6 pins | Emplacement Module (U7) | Header femelle 1x6 Pas 2.54mm | CONN-TH_6P-P2.54mm |
 | **1** | Connecteur male 14 pins | Connecteur de prototypage (H1) | Header Male 1x14 Pas 2.54mm | HDR-TH_14P-P2.54-V-M|
 
-## Comme affichage vous avez le choix d'utiliser soit:
+## 📺 Options d'Affichage au Choix
 
-| Écran TFT IPS ST7789 - 1,3" - 240 x 240 pixels | OLED SSD1306 de 2,4 cm 128 x 64 pixels I2C |
-| :---: | :--- |
-| **Option graphique couleur** | **Option monochrome** |
-| <img width="226" height="181" alt="image" src="https://github.com/user-attachments/assets/8058baaa-8250-4343-b1ee-2f4264cbfdd8" /> | <img width="175" height="164" alt="image" src="https://github.com/user-attachments/assets/af83c2a7-cb08-471e-b7a2-98eef86f3fd2" /> |
+Le circuit intègre une double empreinte vous laissant la liberté d'installer l'interface visuelle la plus adaptée à vos besoins :
 
+| Écran TFT IPS ST7789 (1.3" - 240x240 px) | Écran OLED SSD1306 (0.96" - 128x64 px) |
+| :---: | :---: |
+| **Option graphique couleur (Bus SPI)** | **Option économique monochrome (Bus I2C)** |
+| <img width="226" height="181" alt="Écran TFT IPS ST7789 couleur" src="https://github.com/user-attachments/assets/8058baaa-8250-4343-b1ee-2f4264cbfdd8" /> | <img width="175" height="164" alt="Écran OLED SSD1306 monochrome" src="https://github.com/user-attachments/assets/af83c2a7-cb08-471e-b7a2-98eef86f3fd2" /> |
 
 
 
