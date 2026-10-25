@@ -4,10 +4,22 @@
 
 Ce projet est sous licence **CC BY-NC-SA 4.0**. Les fichiers **Gerber** ainsi que la liste des composants (BOM) sont disponibles dans le dossier `Hardware/`. Vous pouvez librement faire fabriquer les PCBs chez le fournisseur de votre choix.
 
-Le **uComputeJunior** est une carte d'extension et de développement conçue autour du microcontrôleur **Raspberry Pi Pico**. Fidèle à la philosophie *"Bring your own Pico"*, cette plateforme intègre de nombreux composants pour l'affichage, le stockage, le réseau et les interactions, tout en restant accessible et modulaire.
+Le **uComputeJunior** est une version allégée et beaucoup plus accessible de la plateforme [RP2040 uCompute](https://github.com/JPMichon/RP2040_uCompute). Pensée spécifiquement pour les **bricoleurs novices et les makers**, elle adopte un format *"Bring your own Pico"* : elle élimine le besoin de souder des composants de surface complexes (CMS) en accueillant directement un module Raspberry Pi Pico standard prêt à l'emploi. 
+
+Cette carte sert de passerelle d'initiation matérielle pour s'intégrer facilement dans l'environnement global uCompute et facilite, par la même occasion, la prise en main et l'accès aux projets de l'écosystème comme le robot programmable [uCompute Rover](https://github.com/JPMichon/uCompute_Rover).
+
+---
 
 <img width="497" height="314" alt="image" src="https://github.com/user-attachments/assets/13087ef4-5fba-496f-962a-4c9e4731b73f" />
 
+> ⚠ **Note importante concernant les différences de GPIO :**
+> Contrairement à la carte uCompute d'origine, la version Junior n'a pas accès aux broches **GP23** et **GP24**. Pour pallier cette limitation matérielle, les modifications et réallocations suivantes ont été appliquées :
+> * **Sur le peigne d'E/S (Header H1) :** La broche **GP24** a été remplacée par la broche **GP07**.
+> * **Pour le connecteur NeoPixel :** Le signal de contrôle, initialement sur le **GP23**, a été remappé sur la broche **GP06**.
+> 
+> **Conséquences logicielles et matérielles :**
+> 1. Le uCompute Junior ne dispose plus de la broche dédiée à la **détection matérielle de présence de la carte MicroSD**.
+> 2. Le contrôle matériel du rétroéclairage (**BLK**) de l'écran LCD ST7789 n'est plus disponible.
 
 ---
 
