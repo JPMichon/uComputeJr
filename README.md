@@ -59,6 +59,33 @@ Afin de faciliter le travail à la main et d'éviter la frustration, le circuit 
 | **Extension** | Connecteur UART + Header Neopixel + Header H1 | Connectivité série, bandeaux LED et GPIO libres |
 
 ---
+## 📋 Liste des Composants (BOM - Bill of Materials)
+
+| Quantité | Valeur / Référence | Désignation (Designator) | Nom du composant | Empreinte (Footprint) |
+| :---: | :--- | :--- | :--- | :--- |
+| **1** | RASPBERRY PI PICO | U1 | RASPBERRY PI PICO | RASPBERRY PI PICO / RASPBERRY PI PICO W |
+| **1** | LCD_1.3_240\*240\_IPS\_ST7789 | U4 | LCD_1.3_240\*240\_IPS\_ST7789 | LCD_1.3_240\*240\_IPS\_ST7789 |
+| **1** | SSD1306 | P1 | SSD1306 | HDR-4X1/2.54 |
+| **1** | W5500_MODULE | U7 | W5500_MODULE | COMM-TH_L25.0-W23.0_W5500_MODULE |
+| **1** | CAT24CxxxWI-G | U5 | CAT24CxxxWI-G | SOIC-8 |
+| **1** | SD_CARD_TF | U6 | SD_CARD_TF | MICRO-USB-SMD_MICRO-SD |
+| **1** | HX TYPE-C 6P QTWT | USB-C | HX TYPE-C 6P QTWT | TYPE-C-SMD_USB-TYPE-C-007 |
+| **3** | 10nf | C3, C1, C2 | Capacitor | C0805 |
+| **2** | 100uF | C4, C15 | 100uF | CAP-SMD_BD5.0-L5.3-W5.3-LS6.3-FD |
+| **4** | 2kΩ | R13, R1, R5, R6 | 2k | R0805 |
+| **3** | 10kΩ | R3, R4, R10 | 10k | R0805 |
+| **3** | 1kΩ | R7, R8, R9 | 1k | R0805 |
+| **2** | 5.1kΩ | R11, R12 | 5.1k | R0805 |
+| **1** | 10Ω | R2 | 10r | R0805 |
+| **1** | MBR120LSFT | D1 | MBR120LSFT | DO-214AC_L4.3-W2.7-LS5.3-RD |
+| **1** | PPTC FUSE1206 | FUSE | PPTC FUSE1206 | F1206 |
+| **2** | XL-1206QPC | 5V, 3V3 | XL-1206QPC | LED0805 |
+| **1** | RX | RX | RX | LED0805 |
+| **1** | TX | TX | TX | LED0805 |
+| **2** | Connecteur femelle 20 pins | Emplacement Pico (U1) | Header femelle 1x20 Pas 2.54mm | CONN-TH_20P-P2.54mm |
+| **2** | Connecteur femelle 6 pins | Emplacement Module (U7) | Header femelle 1x6 Pas 2.54mm | CONN-TH_6P-P2.54mm |
+| **1** | Connecteur male 14 pins | Connecteur de prototypage (H1) | Header Male 1x14 Pas 2.54mm | HDR-TH_14P-P2.54-V-M|
+---
 
 ## 📌 Brochage et Assignation des GPIO (Pinout)
 
