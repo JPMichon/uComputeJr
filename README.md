@@ -24,6 +24,8 @@ L'intégralité du projet est propulsée par les valeurs de l'Open Hardware et p
 > [!NOTE]
 > Si vous débutez et n'avez jamais commandé de circuits imprimés, sachez qu'il existe de nombreuses plateformes en ligne. De mon côté, j'utilise les services de JLCPCB. Si vous voulez tester leur site, vous pouvez utiliser mon lien de parrainage : **[JLCPCB](https://jlcpcb.com/?from=REDLD)**. Cela vous permettra d'obtenir des coupons de réduction pour vos premières impressions, tout en m'offrant des crédits pour soutenir et financer mes futurs projets. Rien ne vous y oblige bien sûr, mais c'est un excellent moyen de donner un coup de pouce à la chaîne !
 
+💵 **Un budget maîtrisé :** Avec un coût de revient estimé à seulement **25$ CAD (~17€)** par carte (incluant le PCB, le Pi Pico et l'écran), c'est la solution idéale pour équiper une classe entière ou un Fablab à moindre coût.
+
 ---
 
 ### 📻 Modules d'extension & Rétrocompatibilité (Add-ons)
