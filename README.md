@@ -47,8 +47,8 @@ Toutes les connexions entre le Raspberry Pi Pico et les périphériques de la ca
 | **Écran LCD ST7789** | GPIO 4 | RES (Reset) / DC / BL |
 | **Écran LCD ST7789** | GPIO 5 | Contrôle additionnel / Backlight |
 | **Barrette NeoPixel** | GPIO 6 | Sortie données LED RGB adressables |
-| **Module Ethernet W5500**| GPIO 8 | INT (Interruption) |
-| **Module Ethernet W5500**| GPIO 9 | CS (Chip Select Ethernet) |
+| **Module Communication**| GPIO 8 | INT (Interruption) |
+| **Module Communication**| GPIO 9 | CS (Chip Select Ethernet) |
 | **Bus SPI Partagé (Réseau/SD)**| GPIO 10 | SCLK (Horloge SPI) |
 | **Bus SPI Partagé (Réseau/SD)**| GPIO 11 | MOSI (Master Out Slave In) |
 | **Bus SPI Partagé (Réseau/SD)**| GPIO 12 | MISO (Master In Slave Out) |
@@ -58,13 +58,31 @@ Toutes les connexions entre le Raspberry Pi Pico et les périphériques de la ca
 | **Écran OLED / EEPROM** | GPIO 21 | SCL (Bus I2C principal) |
 | **Échelle de Boutons** | GPIO 26 | Entrée Analogique ADC0 (BTN1, BTN2, BTN3) |
 
+### Le bornier ( 1x14 pins Header):
+Le bornier (pins Header) facilite le prototypage. l'espacement est standard a 2,54 mm ceci permet de l'enficher dans un carte de prototypage (Protoboard) ou des cables de liaison (jumper wires) avec embouts *Dupont* afin de relier vos circuits ou modules.
+
+### Alimentations et signaux:
+1. **5V** (Alimentation directe issue de l'USB, idéale pour la puissance)
+2. **3.3V** 
+3. **GND** (Masse commune)
+4. **UART 0** : `GP0` (TX) & `GP1` (RX)
+5. **2 Entrées Analogiques (ADC) :** `GP27` (ADC1) & `GP28` (ADC2)
+6. **6 Broches Numériques (GPIO) :** `GP16`, `GP17`, `GP18`, `GP19`, `GP22`, `GP07`
+
+<BR>
+
+> [!CAUTION]
+> **Le RP2040 n'est pas tolérant au 5V.** 
+> Selon la section *Absolute Maximum Ratings* de la [fiche technique officielle du RP2040 (Datasheet)](https://pip-assets.raspberrypi.com/categories/814-rp2040/documents/RP-008371-DS-1-rp2040-datasheet.pdf), la tension maximale absolue sur les broches d'E/S (`IOVDD`) est de **3,63V**. L'application directe de 5V détruira le microcontrôleur.
+<BR>
+
 ---
 
 ## 🔌 Architecture des Sous-Systèmes
 
 ### 1. Alimentation et Protection
 Le circuit utilise un connecteur USB-C robuste limité aux lignes d'alimentation principales.
-* **Sécurité :** Un fusible réarmable (FUSE1) protège la carte contre les surintensités.
+* **Sécurité :** Un fusible réarmable (FUSE) protège la carte contre les surintensités.
 * **Anti-retour :** Une diode Schottky MBR120LSFT (D1) empêche les conflits d'alimentation lorsque le Pico est branché simultanément en USB natif et sur la carte.
 
 ### 2. Gestion des Entrées (Échelle Analogique)
@@ -73,7 +91,22 @@ Pour économiser les broches du Pico, les boutons **BTN1, BTN2 et BTN3** partage
 
 ### 3. Bus de Communication
 * **Bus I2C :** Partagé entre la mémoire EEPROM de stockage de configuration et le connecteur d'écran OLED standard (SSD1306). Des résistances de pull-up de 10k Ω (R3, R4) stabilisent le bus.
-* **Bus SPI :** Partagé de manière efficace entre le contrôleur Ethernet W5500 et la carte MicroSD grâce à des lignes de sélection de puce (*Chip Select*) distinctes sur les GPIO 9 et 13.
+* **Bus SPI :** Partagé de manière efficace entre le module de communication et la carte MicroSD grâce à des lignes de sélection de puce (*Chip Select*) distinctes sur les GPIO 9 et 13.
 
 ---
+
+## 📜 Licence
+
+Le matériel (fichiers de conception, schémas, typons) et les logiciels de ce projet sont mis à disposition selon les termes de la Licence **Creative Commons Attribution - Pas d'Utilisation Commerciale - Partage dans les Mêmes Conditions 4.0 International (CC BY-NC-SA 4.0)**.
+
+❌ **L'utilisation commerciale de ce projet (revente de PCBs nus, kits ou cartes retroPico assemblées) est strictement interdite sans autorisation préalable de l'auteur.**
+
+Consultez le fichier [LICENSE](LICENSE) pour lire l'intégralité des termes.
+
+---
+
+## ☕ Soutenir le projet
+
+Si vous appréciez mon travail et souhaitez m'offrir un café pour me soutenir bénévolement dans mes futurs projets de soudure et de code, vous pouvez me laisser un [**pourboire sur Ko-fi** ](https://ko-fi.com/jpmichon). C'est entièrement volontaire et grandement apprécié !
+			
 
