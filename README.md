@@ -2,8 +2,6 @@
 
 # uCompute Junior (Bring your own PICO)
 
-Ce projet est sous licence **CC BY-NC-SA 4.0**. Les fichiers **Gerber** ainsi que la liste des composants (BOM) sont disponibles dans le dossier `Hardware/`. Vous pouvez librement faire fabriquer les PCBs chez le fournisseur de votre choix.
-
 Le **uComputeJunior** est une version allégée et beaucoup plus accessible de la plateforme [RP2040 uCompute](https://github.com/JPMichon/RP2040_uCompute). Pensée spécifiquement pour les **bricoleurs novices et les makers**, elle adopte un format *"Bring your own Pico"* : elle élimine le besoin de souder des composants de surface complexes (CMS) en accueillant directement un module Raspberry Pi Pico standard prêt à l'emploi. 
 
 Cette carte sert de passerelle d'initiation matérielle pour s'intégrer facilement dans l'environnement global uCompute et facilite, par la même occasion, la prise en main et l'accès aux projets de l'écosystème comme le robot programmable [uCompute Rover](https://github.com/JPMichon/uCompute_Rover).
