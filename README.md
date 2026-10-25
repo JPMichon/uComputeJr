@@ -64,13 +64,10 @@ Afin de faciliter le travail à la main et d'éviter la frustration, le circuit 
 | Quantité | Valeur / Référence | Désignation (Designator) | Nom du composant | Empreinte (Footprint) |
 | :---: | :--- | :--- | :--- | :--- |
 | **1** | RASPBERRY PI PICO | U1 | RASPBERRY PI PICO | RASPBERRY PI PICO / RASPBERRY PI PICO W |
-| **1** | LCD_1.3_240\*240\_IPS\_ST7789 | U4 | LCD_1.3_240\*240\_IPS\_ST7789 | LCD_1.3_240\*240\_IPS\_ST7789 |
-| **1** | SSD1306 | P1 | SSD1306 | HDR-4X1/2.54 |
-| **1** | W5500_MODULE | U7 | W5500_MODULE | COMM-TH_L25.0-W23.0_W5500_MODULE |
 | **1** | CAT24CxxxWI-G | U5 | CAT24CxxxWI-G | SOIC-8 |
 | **1** | SD_CARD_TF | U6 | SD_CARD_TF | MICRO-USB-SMD_MICRO-SD |
 | **1** | HX TYPE-C 6P QTWT | USB-C | HX TYPE-C 6P QTWT | TYPE-C-SMD_USB-TYPE-C-007 |
-| **3** | 10nf | C3, C1, C2 | Capacitor | C0805 |
+| **3** | 10nf | C1, C2, C3 | Capacitor | C0805 |
 | **2** | 100uF | C4, C15 | 100uF | CAP-SMD_BD5.0-L5.3-W5.3-LS6.3-FD |
 | **4** | 2kΩ | R13, R1, R5, R6 | 2k | R0805 |
 | **3** | 10kΩ | R3, R4, R10 | 10k | R0805 |
@@ -85,6 +82,15 @@ Afin de faciliter le travail à la main et d'éviter la frustration, le circuit 
 | **2** | Connecteur femelle 20 pins | Emplacement Pico (U1) | Header femelle 1x20 Pas 2.54mm | CONN-TH_20P-P2.54mm |
 | **2** | Connecteur femelle 6 pins | Emplacement Module (U7) | Header femelle 1x6 Pas 2.54mm | CONN-TH_6P-P2.54mm |
 | **1** | Connecteur male 14 pins | Connecteur de prototypage (H1) | Header Male 1x14 Pas 2.54mm | HDR-TH_14P-P2.54-V-M|
+
+Comme affichage vous avez le choix d'utiliser soit:
+| Écran TFT IPS ST7789 - 1,3" - 240 x 240 pixels | OLED SSD1306 de 2,4 cm 128 x 64 pixels I2C |
+| :---: | :--- |
+| <img width="226" height="181" alt="image" src="https://github.com/user-attachments/assets/8058baaa-8250-4343-b1ee-2f4264cbfdd8" /> | <img width="226" height="214" alt="image" src="https://github.com/user-attachments/assets/af83c2a7-cb08-471e-b7a2-98eef86f3fd2" /> |
+
+
+
+
 ---
 
 ## 📌 Brochage et Assignation des GPIO (Pinout)
