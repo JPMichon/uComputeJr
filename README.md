@@ -10,16 +10,7 @@ Cette carte sert de passerelle d'initiation matérielle pour s'intégrer facilem
 
 ---
 
-<img width="497" height="314" alt="image" src="https://github.com/user-attachments/assets/13087ef4-5fba-496f-962a-4c9e4731b73f" />
-
-> ⚠ **Note importante concernant les différences de GPIO :**
-> Contrairement à la carte uCompute d'origine, la version Junior n'a pas accès aux broches **GP23** et **GP24**. Pour pallier cette limitation matérielle, les modifications et réallocations suivantes ont été appliquées :
-> * **Sur le peigne d'E/S (Header H1) :** La broche **GP24** a été remplacée par la broche **GP07**.
-> * **Pour le connecteur NeoPixel :** Le signal de contrôle, initialement sur le **GP23**, a été remappé sur la broche **GP06**.
-> 
-> **Conséquences logicielles et matérielles :**
-> 1. Le uCompute Junior ne dispose plus de la broche dédiée à la **détection matérielle de présence de la carte MicroSD**.
-> 2. Le contrôle matériel du rétroéclairage (**BLK**) de l'écran LCD ST7789 n'est plus disponible.
+<img width="497" height="314" alt="image" src="https://github.com/user-attachments/assets/13087ef4-5fba-496f-962a-4c9e4731b73f" /><br>
 
 ---
 
@@ -47,6 +38,15 @@ Cette carte sert de passerelle d'initiation matérielle pour s'intégrer facilem
 ---
 
 ## 📌 Brochage et Assignation des GPIO (Pinout)
+
+> ⚠ **Note importante concernant les différences de GPIO :**
+> Contrairement à la carte uCompute d'origine, la version Junior n'a pas accès aux broches **GP23** et **GP24**. Pour pallier cette limitation matérielle, les modifications et réallocations suivantes ont été appliquées :
+> * **Sur le peigne d'E/S (Header H1) :** La broche **GP24** a été remplacée par la broche **GP07**.
+> * **Pour le connecteur NeoPixel :** Le signal de contrôle, initialement sur le **GP23**, a été remappé sur la broche **GP06**.
+> 
+> **Conséquences logicielles et matérielles :**
+> 1. Le uCompute Junior ne dispose plus de la broche dédiée à la **détection matérielle de présence de la carte MicroSD**.
+> 2. Le contrôle matériel du rétroéclairage (**BLK**) de l'écran LCD ST7789 n'est plus disponible.
 
 Toutes les connexions entre le Raspberry Pi Pico et les périphériques de la carte sont regroupées ci-dessous :
 
