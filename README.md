@@ -12,6 +12,12 @@ Cette carte sert de passerelle d'initiation matérielle pour s'intégrer facilem
 
 ---
 
+## 🌐 Documentation centralisée (en anglais)<br>
+
+👉 [**uCompute Ecosystem Wiki**]([https://github.com](https://github.com/JPMichon/uCompute-Ecosystem/wiki)) — Hardware specifications, OS guides, and project overview.
+
+---
+
 ## 🎓 Une solution idéale pour l'enseignement et les Fablabs
 
 Le **uCompute Junior** s'impose comme l'outil parfait pour l'initiation à l'électronique et aux systèmes embarqués, que ce soit en milieu scolaire (**écoles et collèges**) ou au sein des **Fablabs**. 
