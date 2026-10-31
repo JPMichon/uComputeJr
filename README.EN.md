@@ -9,6 +9,11 @@ This board serves as a hardware entry gateway to seamlessly integrate into the g
 
 <img width="558" height="367" alt="image" src="https://github.com/user-attachments/assets/9ae96d46-1b85-4960-8d46-99c5ffb2fcdd" />
 
+---
+
+## 🌐 Central Documentation<br>
+
+👉 [**uCompute Ecosystem Wiki**](https://github.com/JPMichon/uCompute-Ecosystem/wiki) — Hardware specifications, OS guides, and project overview.
 
 ---
 
