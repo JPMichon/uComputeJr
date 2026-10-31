@@ -14,7 +14,7 @@ Cette carte sert de passerelle d'initiation matérielle pour s'intégrer facilem
 
 ## 🌐 Documentation centralisée (en anglais)<br>
 
-👉 [**uCompute Ecosystem Wiki**]([https://github.com](https://github.com/JPMichon/uCompute-Ecosystem/wiki)) — Hardware specifications, OS guides, and project overview.
+👉 [**uCompute Ecosystem Wiki**](https://github.com/JPMichon/uCompute-Ecosystem/wiki)) — Hardware specifications, OS guides, and project overview.
 
 ---
 
