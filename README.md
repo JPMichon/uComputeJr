@@ -7,7 +7,7 @@ Le **uComputeJunior** est une version allégée et beaucoup plus accessible de l
 Cette carte sert de passerelle d'initiation matérielle pour s'intégrer facilement dans l'environnement global uCompute et facilite, par la même occasion, la prise en main et l'accès aux projets de l'écosystème comme le robot programmable [uCompute Rover](https://github.com/JPMichon/uCompute_Rover).
 
 
-<img width="550" height="360" alt="image" src="https://github.com/user-attachments/assets/9922ed4e-36fb-4498-95b4-c9fe2cc4a8a2" />
+<img width="550" height="360" alt="image" src="https://github.com/user-attachments/assets/8edb3927-2c3c-415d-8353-aa78c004a00d" />
 
 
 
