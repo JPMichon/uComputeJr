@@ -2,7 +2,7 @@
 # uCompute Digital Rain for ST7789
 #----------------------------------------------------------------
 #----------------------------------------------------------------
-# Prerequest: SSD1306 as display
+# Prerequest: ST7789 as display
 # Compatibility: Work with all PICO version
 # JPMichon  11/2026
 #

@@ -2,13 +2,12 @@
 #  Breakout (Casse-briques) game 240x240 ST7789 SPI LCD
 #----------------------------------------------------------------
 #----------------------------------------------------------------
-# Prerequest: SSD1306 as display
+# Prerequest: ST7789 as display
 # Compatibility: Work with all PICO version
 # JPMichon  11/2026
 #
 # https://github.com/JPMichon/uComputeJr
 #----------------------------------------------------------------
-#import uos
 from machine import I2C, Pin, SPI, PWM, ADC
 import st7789 as st7789
 import framebuf2
