@@ -7,7 +7,7 @@ The **uComputeJunior** is a streamlined and highly accessible version of the [RP
 This board serves as a hardware entry gateway to seamlessly integrate into the global uCompute environment, while also simplifying the onboarding and access to ecosystem projects like the programmable [uCompute Rover robot](https://github.com/JPMichon/uCompute_Rover).
 
 
-<img width="630" height="415" alt="image" src="https://github.com/user-attachments/assets/7432a45b-6399-4a45-bb24-15ecf7f0c119" />
+<img width="484" height="338" alt="image" src="https://github.com/user-attachments/assets/57f7cb05-41f6-49e3-b727-914c0957bf64" />
 
 ---
 
