@@ -152,13 +152,13 @@ All connections between the Raspberry Pi Pico and the board's peripherals are li
 | **ST7789 LCD Screen** | GPIO 4 | RES (Reset) |
 | **ST7789 LCD Screen** | GPIO 5 | DC |
 | **NeoPixel Strip** | GPIO 6 | NeoPixel Pin |
-| **Communication Module**| GPIO 8 | INT (Interrupt) |
-| **Communication Module**| GPIO 9 | CS (Chip Select) |
-| **Shared SPI Bus (Network/SD)**| GPIO 10 | SCLK (Clock SPI) |
-| **Shared SPI Bus (Network/SD)**| GPIO 11 | MOSI (Master Out Slave In) |
+| **Communication Module**| GPIO 9 | INT (Interrupt) |
+| **Communication Module**| GPIO 8 | CS (Chip Select) |
+| **Shared SPI Bus (Network/SD)**| GPIO 14 | SCLK (Clock SPI) |
+| **Shared SPI Bus (Network/SD)**| GPIO 15 | MOSI (Master Out Slave In) |
 | **Shared SPI Bus (Network/SD)**| GPIO 12 | MISO (Master In Slave Out) |
-| **MicroSD Card Reader** | GPIO 13 | CS (Chip Select Carte SD) |
-| **Buzzer** | GPIO 16 | Audio Signal  (PWM) |
+| **MicroSD Card Reader** | NA | CS (Chip Select Carte SD) |
+| **Buzzer** | GPIO 11 | Audio Signal  (PWM) |
 | **OLED Screen / EEPROM** | GPIO 20 | SDA (Main I2C Bus) |
 | **OLED Screen / EEPROM** | GPIO 21 | SCL (Main I2C Bus) |
 | **Button Resistor Ladder** | GPIO 26 | Analog Input ADC0 (BTN1, BTN2, BTN3) |
