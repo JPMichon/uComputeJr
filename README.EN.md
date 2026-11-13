@@ -157,7 +157,7 @@ All connections between the Raspberry Pi Pico and the board's peripherals are li
 | **Shared SPI Bus (Network/SD)**| GPIO 14 | SCLK (Clock SPI) |
 | **Shared SPI Bus (Network/SD)**| GPIO 15 | MOSI (Master Out Slave In) |
 | **Shared SPI Bus (Network/SD)**| GPIO 12 | MISO (Master In Slave Out) |
-| **MicroSD Card Reader** | NA | CS (Chip Select Carte SD) |
+| **MicroSD Card Reader** | GPIO 13 | CS (Chip Select Carte SD) |
 | **Buzzer** | GPIO 11 | Audio Signal  (PWM) |
 | **OLED Screen / EEPROM** | GPIO 20 | SDA (Main I2C Bus) |
 | **OLED Screen / EEPROM** | GPIO 21 | SCL (Main I2C Bus) |
