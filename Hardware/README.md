@@ -10,6 +10,9 @@ Ce répertoire contient tous les fichiers nécessaires pour inspecter le circuit
 
 > [!NOTE]
 > Si vous débutez et n'avez jamais commandé de circuits imprimés, sachez qu'il existe de nombreuses plateformes en ligne. De mon côté, j'utilise les services de JLCPCB. Si vous voulez tester leur site, vous pouvez utiliser mon lien de parrainage : **[JLCPCB](https://jlcpcb.com/?from=REDLD)**. Cela vous permettra d'obtenir des coupons de réduction pour vos premières impressions, tout en m'offrant des crédits pour soutenir et financer mes futurs projets. Rien ne vous y oblige bien sûr, mais c'est un excellent moyen de donner un coup de pouce à la chaîne !
+>
+
+---
 
 ### 📦 Contenu du répertoire
 
@@ -34,6 +37,8 @@ This directory contains all the files required to inspect the electrical circuit
 > [!NOTE]
 > If you are a beginner and have never ordered printed circuit boards before, you should know that there are many online platforms available. Personally, I use JLCPCB's services. If you want to test their website, you can use my referral link: **[JLCPCB](https://jlcpcb.com/?from=REDLD)**. This will allow you to get discount coupons for your first prints, while offering me credits to support and finance my future projects. Of course, you are under no obligation to do so, but it is an excellent way to give the channel a helping hand!
 > 
+
+---
 
 ### 📦 Directory Contents
 
