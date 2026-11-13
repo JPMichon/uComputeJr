@@ -34,19 +34,26 @@ Pour toutes les résistances, condensateurs et DEL de format **0805** :
 
 ## 📋 3. Étapes de montage (du plus plat au plus haut)
 
-### Étape 1 : Les composants difficiles (Connecteur USB-C et MicroSD)
+> 🖌️ **Astuce technique — Le soudage par brossage (*Drag Soldering*) :**
+> Pour souder efficacement les rangées de petites broches serrées (connecteur **USB-C**, lecteur **MicroSD** et puce **EEPROM**), inutile de les souder une par une :
+> 1. Appliquez généreusement du **flux de soudure** sur l'ensemble des broches.
+> 2. Faites fondre une petite quantité d'étain sur la pointe de votre fer à souder.
+> 3. **Brossez légèrement** les broches d'un mouvement fluide et continu dans une seule direction. Grâce au flux, l'étain va naturellement se répartir sur chaque patte.
+> 4. **En cas de pont de soudure :** Si deux broches se retrouvent reliées par une goutte d'étain, nettoyez complètement la pointe de votre fer (sur votre laine de laiton ou éponge humide), ajoutez une touche de flux sur le pont, puis repassez le fer propre sur les broches pour retirer l'excédent d'étain par capillarité.
+
+### Étape 1 : Les connecteurs CMS (USB-C et MicroSD)
 *On commence par eux car l'espace autour est encore totalement dégagé.*
-1. **Connecteur USB-C (`USB-C`) :** Appliquez généreusement du flux sur les petites broches arrière. Alignez les ergots en plastique dans les trous du PCB. Soudez d'abord les grosses pattes de fixation latérales pour bloquer la pièce, puis passez le fer sur les petites broches à l'arrière. *(Utilisez la tresse à dessouder s'il y a un pont d'étain entre deux broches).*
-2. **Lecteur MicroSD (`U6`) :** Positionnez le boîtier métallique sur son empreinte, soudez les pattes de maintien sur les côtés, puis les broches de contact à l'arrière.
+1. **Connecteur USB-C (`USB-C`) :** Alignez les ergots en plastique dans les trous du PCB. Soudez d'abord les grosses pattes de fixation latérales pour bloquer solidement la pièce, puis appliquez la **technique du brossage** sur les petites broches arrière.
+2. **Lecteur MicroSD (`U6`) :** Positionnez le boîtier métallique sur son empreinte, soudez les pattes de maintien sur les côtés, puis soudez les broches de contact à l'arrière par **brossage**.
 
 ### Étape 2 : Les circuits intégrés et la protection
 ⚠️ **Attention au sens de montage (polarité) !**
-1. **Mémoire EEPROM (`U5` - CAT24Cxxx) :** Repérez le petit point ou l'encoche sur la puce (broche 1) et alignez-le avec le repère dessiné sur le circuit imprimé.
+1. **Mémoire EEPROM (`U5` - CAT24Cxxx) :** Repérez le petit point ou l'encoche sur la puce (broche 1) et alignez-le avec le repère dessiné sur le circuit imprimé. Immobilisez une première patte, puis soudez les deux rangées de broches par **brossage**.
 2. **Diode Schottky (`D1` - MBR120LSFT) :** La bande blanche dessinée sur le composant doit être alignée avec le trait blanc sur le PCB.
 3. **Fusible réarmable (`FUSE`) :** Aucun sens à respecter, soudez-le comme une résistance.
 
 ### Étape 3 : Les résistances et condensateurs (Format 0805)
-Ces composants n'ont pas de sens de montage. Procédez valeur par valeur pour ne pas les mélanger :
+Ces composants n'ont pas de sens de montage. Utilisez la méthode en 5 étapes vue à la section précédente et procédez valeur par valeur pour ne pas les mélanger :
 * **Résistances 270 Ω (`R2`)** : 1 pièce
 * **Résistances 1 kΩ (`R7`, `R8`, `R9`)** : 3 pièces
 * **Résistances 2 kΩ (`R1`, `R5`, `R6`, `R13`)** : 4 pièces
@@ -86,4 +93,16 @@ Retournez la carte pour souder ces pièces par le dessous :
 3. **Bornier principal (`H1`) :** Soudez le connecteur mâle de 14 broches (ainsi que les connecteurs I2C, UART et NeoPixel si vous utilisez des broches).
 4. **Écran au choix :** Soudez soit l'écran couleur **ST7789** (7 broches), soit l'écran monochrome **OLED SSD1306** (4 broches).
 
-🎉 **Félicitations ! Votre uCompute Junior est prêt à recevoir son premier script MicroPython.**
+## 🧼 6. Nettoyage et finition (Retrait du flux)
+
+Une fois toutes vos soudures terminées, il reste souvent des résidus collants de flux de soudure autour des composants. Les nettoyer permet de rendre votre carte impeccable et de mieux inspecter la qualité de vos joints.
+
+* **L'astuce économique :** Pas besoin d'acheter des produits spécialisés coûteux. Utilisez simplement des **tampons imbibés d'alcool** (tampons antiseptiques d'alcool isopropylique à 70 % ou plus), disponibles à très bas prix dans les pharmacies ou les magasins à un dollar.
+* **Comment nettoyer :**
+  1. Frottez délicatement les zones soudées (dessus et dessous de la carte) avec un tampon imbibé d'alcool pour dissoudre les traces de flux.
+  2. Pour les endroits difficiles d'accès entre les broches, vous pouvez vous aider d'un coton-tige ou d'une vieille brosse à dents souple légèrement imbibée d'alcool.
+  3. **Précaution :** Évitez de faire pénétrer du liquide à l'intérieur des boutons poussoirs, du lecteur MicroSD ou dans le trou du buzzer.
+  4. Laissez la carte sécher à l'air libre pendant **1 à 2 minutes** (l'alcool s'évapore très rapidement) avant de la rebrancher.
+
+
+## 🎉 **Félicitations ! <br> Votre uCompute Junior est maintenant assemblé, propre et prêt à recevoir son premier script MicroPython.**
