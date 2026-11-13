@@ -1,8 +1,5 @@
 # 📦 Bibliothèques et Pilotes MicroPython / MicroPython Libraries & Drivers
 
-[Français](#-français) | [English](#-english)
-
----
 
 ## :fr: Français
 
