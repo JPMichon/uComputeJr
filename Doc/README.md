@@ -11,6 +11,7 @@ Bienvenue dans le centre de documentation technique et pédagogique du **uComput
 
 ## :us: English Documentation
 
+* **[Assembly Guide](AssemblyGuide.md)** — Step-by-step instructions for soldering SMD and through-hole components onto the PCB (ideal for schools and Fablabs).
 * **[Junior Walkthrough](WALKTHROUGH.md)** — Detailed hardware tour covering power options, indicator LEDs, communication ports, display choices, and GPIO pinouts.
 
 ---
