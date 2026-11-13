@@ -4,7 +4,7 @@
 
 ---
 
-## <img src="https://flagcdn.com" width="24" height="18" alt="Drapeau France"> Français
+## :fr: Français
 
 Ce répertoire regroupe l'ensemble des **bibliothèques et pilotes MicroPython** utilisés dans le cadre du projet **uCompute Junior** (gestion des écrans ST7789 et SSD1306, cartes SD, polices de caractères, modules de communication, etc.).
 
@@ -20,7 +20,7 @@ Pour que les jeux (`games/`) et les scripts de diagnostic (`testcode/`) fonction
 
 ---
 
-## <img src="https://flagcdn.com" width="24" height="18" alt="US Flag"> English
+## :us: English
 
 This directory contains all the **MicroPython libraries and hardware drivers** used across the **uCompute Junior** project (ST7789 and SSD1306 display drivers, SD card support, fonts, communication modules, etc.).
 
