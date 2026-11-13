@@ -46,8 +46,6 @@ En poursuivant vers la droite sur le bord supérieur, on retrouve le connecteur 
 
 > ℹ️ **Pourquoi les DEL TX et RX brillent-elles faiblement au démarrage ?**
 > Si vous remarquez que les DEL TX et RX restent partiellement allumées (avec une faible intensité) lorsque vous mettez la carte sous tension, **c'est tout à fait normal**. Tant que le port UART n'est pas explicitement initialisé dans votre code MicroPython, les broches GPIO 0 et GPIO 1 du Raspberry Pi Pico demeurent à l'état flottant (haute impédance), ce qui laisse passer un léger courant résiduel à travers les DEL. Elles s'éteindront complètement dès que le périphérique UART sera configuré par logiciel.
-Utilisez le code avec précaution.
-Souhaitez-vous que nous continuions le tour de la carte avec la section supérieure droite (le buzzer et le connecteur d'extension Add-on Module) ou le bas de la carte (les écrans, le lecteur MicroSD et les boutons) ?
 
 ## 🔊 Le buzzer piézoélectrique (Sortie audio)
 
