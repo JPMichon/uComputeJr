@@ -20,13 +20,15 @@ Avant de commencer, assurez-vous d'avoir tout le matériel à portée de main :
 
 ---
 
-## 📐 2. La technique de soudure CMS (en 4 étapes)
+## 📐 2. La technique de soudure CMS (en 5 étapes)
 
 Pour toutes les résistances, condensateurs et DEL de format **0805** :
-1. **Étamer une seule pastille :** Déposez une minuscule goutte d'étain sur l'une des deux pastilles du circuit.
-2. **Positionner le composant :** Saisissez le composant avec la pince, chauffez la goutte d'étain et glissez le composant en place. Retirez le fer et attendez 2 secondes que l'étain fige.
-3. **Souder le deuxième côté :** Ajoutez un peu de flux sur l'autre pastille, puis soudez-la proprement.
-4. **Finaliser le premier côté :** Repassez brièvement sur la première soudure avec un peu de flux pour obtenir un joint brillant et solide.
+
+1. **Appliquer du flux :** Déposez une petite touche de flux de soudure sur les deux pastilles du circuit imprimé avant de commencer.
+2. **Étamer une seule pastille :** Déposez une minuscule goutte d'étain sur l'une des deux pastilles.
+3. **Positionner et maintenir le composant :** Saisissez le composant avec la pince, chauffez la goutte d'étain et glissez le composant en place. **Appliquez une légère pression verticale** sur le dessus du composant avec la pince afin qu'il reste bien à plat contre le circuit (cela évite l'effet « pierre tombale » ou *tombstoning*, où un côté du composant se soulève). Retirez le fer et maintenez la pression 2 secondes le temps que l'étain fige.
+4. **Souder le deuxième côté :** Déposez une petite goutte d'étain directement sur la pointe de votre fer à souder, puis venez faire contact simultanément sur la seconde pastille et l'extrémité du composant. Grâce au flux appliqué à l'étape 1, la soudure se formera instantanément.
+5. **Finaliser le premier côté :** Repassez brièvement sur la première soudure avec une pointe de flux pour obtenir un joint brillant et solide.
 
 ---
 
