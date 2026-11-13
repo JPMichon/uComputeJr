@@ -8,6 +8,7 @@ This board serves as a hardware entry gateway to seamlessly integrate into the g
 
 
 <img width="484" height="338" alt="image" src="https://github.com/user-attachments/assets/57f7cb05-41f6-49e3-b727-914c0957bf64" />
+<img width="484" height="338" alt="image" src="https://github.com/user-attachments/assets/41bec4b2-bcd1-42d2-9e98-3bb4f0846a72" />
 
 ---
 
