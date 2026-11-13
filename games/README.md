@@ -4,7 +4,7 @@
 
 ---
 
-## <img src="https://flagcdn.com" width="24" height="18" alt="Drapeau France"> Français
+## Français
 
 Ce répertoire regroupe des jeux rétro et des animations graphiques développés en **MicroPython** spécialement pour le **uCompute Junior**. Ils tirent parti de l'écran couleur **TFT IPS ST7789 (240×240)**, du buzzer piézoélectrique et des boutons de navigation intégrés.
 
@@ -23,7 +23,7 @@ Ce répertoire regroupe des jeux rétro et des animations graphiques développé
 
 ---
 
-## <img src="https://flagcdn.com" width="24" height="18" alt="US Flag"> English
+## English
 
 This directory contains retro games and visual demos written in **MicroPython** specifically for the **uCompute Junior**. They take full advantage of the **ST7789 IPS color display (240×240)**, the onboard piezoelectric buzzer, and the navigation pushbuttons.
 
