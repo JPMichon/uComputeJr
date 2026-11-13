@@ -18,6 +18,7 @@ Cette carte sert de passerelle d'initiation matérielle pour s'intégrer facilem
 * **[Jeux et démos (`games/`)](games/README.md)** — Programmes rétro en MicroPython prêts à jouer (Breakout, Pong, Jeu de la vie).
 * **[Codes de test (`testcode/`)](testcode/README.md)** — Scripts de diagnostic pour valider chaque port (I2C, Buzzer, NeoPixel, Wi-Fi, UART).
 
+---
 
 ## 🌐 Documentation centralisée (en anglais)<br>
 
