@@ -11,6 +11,14 @@ This board serves as a hardware entry gateway to seamlessly integrate into the g
 
 ---
 
+### 📚 uCompute Junior Guides & Examples
+
+* **[Documentation Hub (`Doc/`)](Doc/README.md)** — Access the step-by-step **Assembly Guide** (SMD/through-hole soldering) and the full **Hardware Walkthrough**.
+* **[Games & Demos (`games/`)](games/README.md)** — Ready-to-play retro MicroPython games (Breakout, Pong, Game of Life).
+* **[Test Code (`testcode/`)](testcode/README.md)** — Diagnostic scripts to test every port (I2C, Buzzer, NeoPixel, Wi-Fi, UART).
+
+---
+
 ## 🌐 Central Documentation<br>
 
 👉 [**uCompute Ecosystem Wiki**](https://github.com/JPMichon/uCompute-Ecosystem/wiki) — Hardware specifications, OS guides, and project overview.
