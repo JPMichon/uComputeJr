@@ -105,4 +105,4 @@ Une fois toutes vos soudures terminées, il reste souvent des résidus collants 
   4. Laissez la carte sécher à l'air libre pendant **1 à 2 minutes** (l'alcool s'évapore très rapidement) avant de la rebrancher.
 
 
-## 🎉 **Félicitations ! <br> Votre uCompute Junior est maintenant assemblé, propre et prêt à recevoir son premier script MicroPython.**
+ 🎉 **Félicitations ! <br> Votre uCompute Junior est maintenant assemblé, propre et prêt à recevoir son premier script MicroPython.**
