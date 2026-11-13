@@ -116,7 +116,7 @@ Sur le bord droit de la carte, juste sous le connecteur de l'écran alternatif O
 
 En bas à droite du circuit se regroupent les commandes physiques permettant d'interagir directement avec vos programmes :
 
-* **Le bouton RESET (jaune) :** Situé à gauche du groupe de boutons, il est relié directement à la broche `RUN` du Raspberry Pi Pico. Une simple pression permet de redémarrer instantanément votre microcontrôleur sans avoir à débrancher l'alimentation.
+* **Le bouton RESET (rouge) :** Situé à gauche du groupe de boutons, il est relié directement à la broche `RUN` du Raspberry Pi Pico. Une simple pression permet de redémarrer instantanément votre microcontrôleur sans avoir à débrancher l'alimentation.
 * **Les 3 boutons d'action (BTN1, BTN2, BTN3) :** Alignés côte à côte, ces trois boutons poussoirs servent à naviguer dans vos menus ou à contrôler vos jeux.
   * **Astuce électronique (Échelle analogique) :** Pour n'utiliser qu'une seule broche du Pico au lieu de trois, ces boutons sont montés en pont diviseur de tension (via les résistances R7, R8, R9 et R10) et reliés à l'entrée analogique **GPIO 26 (ADC0)**. Chaque bouton envoie une tension différente que votre code lit pour identifier quelle touche est pressée.
 
