@@ -12,6 +12,13 @@ Cette carte sert de passerelle d'initiation matérielle pour s'intégrer facilem
 
 ---
 
+### 📚 Guides et Exemples du uCompute Junior
+
+* **[Centre de documentation (`Doc/`)](Doc/README.md)** — Accédez au **Guide de montage** (soudure CMS/traversant) et au **Tour du propriétaire** complet de la carte.
+* **[Jeux et démos (`games/`)](games/README.md)** — Programmes rétro en MicroPython prêts à jouer (Breakout, Pong, Jeu de la vie).
+* **[Codes de test (`testcode/`)](testcode/README.md)** — Scripts de diagnostic pour valider chaque port (I2C, Buzzer, NeoPixel, Wi-Fi, UART).
+
+
 ## 🌐 Documentation centralisée (en anglais)<br>
 
 👉 [**uCompute Ecosystem Wiki**](https://github.com/JPMichon/uCompute-Ecosystem/wiki) — Hardware specifications, OS guides, and project overview.
