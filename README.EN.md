@@ -100,7 +100,8 @@ To facilitate hand-soldering and avoid frustration, the circuit was designed wit
 | **Extension** | UART Connector + NeoPixel Header + Header H1 | Serial connectivity, LED strips, and free GPIOs |
 
 ---
-## 📋 Bill of Materials, Pinout, and Subsystems
+
+## 📋 Bill of Materials (BOM)
 
 | Quantity | Value / Reference | Designator | Component Name | Footprint |
 | :---: | :--- | :--- | :--- | :--- |
@@ -108,21 +109,25 @@ To facilitate hand-soldering and avoid frustration, the circuit was designed wit
 | **1** | CAT24CxxxWI-G | U5 | CAT24CxxxWI-G | SOIC-8 |
 | **1** | SD_CARD_TF | U6 | SD_CARD_TF | MICRO-USB-SMD_MICRO-SD |
 | **1** | HX TYPE-C 6P QTWT | USB-C | HX TYPE-C 6P QTWT | TYPE-C-SMD_USB-TYPE-C-007 |
-| **3** | 10nf | C1, C2, C3 | Capacitor | C0805 |
-| **2** | 100uF | C4, C15 | 100uF | CAP-SMD_BD5.0-L5.3-W5.3-LS6.3-FD |
+| **3** | 10nF | C1, C2, C3 | Capacitor | C0805 |
+| **1** | 4.7µF | C5 | Capacitor | C0805 |
+| **1** | 10µF | C6 | Capacitor | C0805 |
 | **4** | 2kΩ | R13, R1, R5, R6 | 2k | R0805 |
 | **3** | 10kΩ | R3, R4, R10 | 10k | R0805 |
 | **3** | 1kΩ | R7, R8, R9 | 1k | R0805 |
 | **2** | 5.1kΩ | R11, R12 | 5.1k | R0805 |
+| **2** | 100Ω | R14, R15 | 100r | R0805 |
 | **1** | 270Ω | R2 | 270r | R0805 |
-| **1** | MBR120LSFT | D1 | MBR120LSFT | DO-214AC_L4.3-W2.7-LS5.3-RD |
-| **1** | PPTC FUSE1206 | FUSE | PPTC FUSE1206 | F1206 |
+| **1** | SS110 | D1 | SS110 (Schottky Diode) | DO-214AC (SMA) |
+| **1** | MBR120LSFT | D2 | MBR120LSFT | DO-214AC_L4.3-W2.7-LS5.3-RD |
+| **1** | PPTC FUSE1206 (800mA) | FUSE | PPTC FUSE1206 | F1206 |
 | **2** | XL-1206QPC | 5V, 3V3 | XL-1206QPC | LED0805 |
 | **1** | RX | RX | RX | LED0805 |
 | **1** | TX | TX | TX | LED0805 |
-| 2 | 20-pin female connector | Pico Socket (U1) | 1x20 Female Header 2.54mm Pitch | CONN-TH_20P-P2.54mm |
-| 2 | 6-pin female connector | Module Socket (U7) | 1x6 Female Header 2.54mm Pitch | CONN-TH_6P-P2.54mm |
-| 1 | 14-pin male connector | Prototyping Connector (H1) | 1x14 Male Header 2.54mm Pitch | HDR-TH_14P-P2.54-V-M |
+| **2** | 20-pin female connector | Pico Socket (U1) | 1x20 Female Header 2.54mm Pitch | CONN-TH_20P-P2.54mm |
+| **2** | 6-pin female connector | Module Socket (U7) | 1x6 Female Header 2.54mm Pitch | CONN-TH_6P-P2.54mm |
+| **1** | 14-pin male connector | Prototyping Connector (H1) | 1x14 Male Header 2.54mm Pitch | HDR-TH_14P-P2.54-V-M |
+
 
 ## 📺 Display Options of Your Choice
 
