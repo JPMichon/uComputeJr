@@ -1,6 +1,6 @@
 # 🛠️ Fichiers Matériels, Schémas et Gerber / Hardware Files, Schematics & Gerbers
 
-<img width="940" height="662" alt="image" src="https://github.com/user-attachments/assets/b8a9ec69-8dfc-4981-867d-9f80f5ed3610" />
+<img width="1221" height="854" alt="image" src="https://github.com/user-attachments/assets/c1f4fc4a-4bc2-4072-a7db-ae871a6176db" />
 
 ---
 
