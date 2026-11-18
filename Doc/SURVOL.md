@@ -1,6 +1,6 @@
 # 👋 Tour du propriétaire : uCompute Junior (Rev 1.1)
 
-Super, vous avez maintenant votre **uCompute Junior** (version 1.0 sur la photo) en main ! Il est temps de faire un tour du propriétaire pour bien comprendre ses fonctionnalités, en commençant par la section en haut à gauche consacrée à l'alimentation.
+Super, vous avez maintenant votre **uCompute Junior** (version 1.1 sur la photo) en main ! Il est temps de faire un tour du propriétaire pour bien comprendre ses fonctionnalités, en commençant par la section en haut à gauche consacrée à l'alimentation.
 
 <img width="869" height="589" alt="image" src="https://github.com/user-attachments/assets/f962a27c-522d-4adc-840a-28f8f81bcba9" />
 
