@@ -1,8 +1,9 @@
-# 👋 Hardware Walkthrough: uCompute Junior (Rev 1.0)
+# 👋 Hardware Walkthrough: uCompute Junior (Rev 1.1)
 
-Great, you now have your **uCompute Junior** (version 1.0 shown in the photo) in hand! It is time for a guided tour of the board to understand all its features, starting with the power section in the top-left corner.
+Great, you now have your **uCompute Junior** (version 1.1 shown in the photo) in hand! It is time for a guided tour of the board to understand all its features, starting with the power section in the top-left corner.
 
-<img width="1050" height="724" alt="Plain_junior_V1" src="https://github.com/user-attachments/assets/48943b12-aabe-4664-ba01-e11337469098" />
+<img width="869" height="589" alt="image" src="https://github.com/user-attachments/assets/47884c99-89e9-4791-8e2b-fe434e2350a2" />
+
 
 ## 🔌 The USB-C Port (Power Only)
 
