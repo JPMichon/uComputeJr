@@ -2,7 +2,8 @@
 
 Super, vous avez maintenant votre **uCompute Junior** (version 1.0 sur la photo) en main ! Il est temps de faire un tour du propriétaire pour bien comprendre ses fonctionnalités, en commençant par la section en haut à gauche consacrée à l'alimentation.
 
-<img width="1050" height="724" alt="Plain_junior_V1" src="https://github.com/user-attachments/assets/48943b12-aabe-4664-ba01-e11337469098" />
+<img width="869" height="589" alt="image" src="https://github.com/user-attachments/assets/f962a27c-522d-4adc-840a-28f8f81bcba9" />
+
 
 ## 🔌 Le port USB-C (Alimentation uniquement)
 
